@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+external:
+  api-url: http://localhost:8080/mock-api/events/
+
+kafka:
+  topic:
+    name: live-events
+  bootstrap-servers: localhost:9092

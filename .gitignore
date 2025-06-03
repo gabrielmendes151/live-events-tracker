@@ -1,0 +1,99 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+logs/
+log/
+*.out
+
+# Spring Boot
+spring.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.csettings
+.settings/
+bin/
+*.launch
+
+# Test coverage
+.coverage
+coverage/
+.jacoco/
+jacoco.exec
+
+# Other
+.env
+*.env
+*.local
+*.swp
+*~
+# Byebug for Ruby (sometimes appears)
+.byebug_history
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# System
+*.orig
+*.rej
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Node (caso você tenha scripts front-end)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS-specific
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# Mac
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
