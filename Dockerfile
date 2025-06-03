@@ -1,7 +1,7 @@
 FROM eclipse-temurin:21-jdk as build
 WORKDIR /app
 COPY . .
-RUN ./mvnw package -DskipTests
+RUN mvn package -DskipTests
 RUN mv target/*.jar app.jar
 
 FROM eclipse-temurin:21-jre
