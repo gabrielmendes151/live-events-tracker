@@ -1,10 +1,10 @@
-FROM eclipse-temurin:21-jdk as build
+FROM eclipse-temurin:17-jdk as build
 WORKDIR /app
 COPY . .
 RUN mvn package -DskipTests
 RUN mv target/*.jar app.jar
 
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:17-jre
 ARG PORT=8080
 ENV PORT=${PORT}
 WORKDIR /home/runtime
