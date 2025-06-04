@@ -19,6 +19,7 @@
 ## Swagger
 
 http://localhost:8080/swagger-ui/index.html
+https://live-events-tracker-production.up.railway.app/swagger-ui/index.html#/
 
 ## Tests
 
